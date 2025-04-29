@@ -1,0 +1,48 @@
+/* Header.css */
+.header-container {
+  background-color: rgba(16, 103, 30, 0.993);
+  padding: 5px 20px; /* Adjust the padding for better spacing */
+  text-align: center;
+  display: flex;
+  justify-content: space-between; /* Push the logo to the left */
+  align-items: center; /* Vertically center the items */
+  position: fixed; /* Fix the header to the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+  /* Rounded bottom corners */
+  height: 80px; /* Reduce height for a slimmer header */
+}
+
+/* Reduce logo size to fit the smaller header */
+.logo img {
+  width: 150px; /* Adjust width */
+  height: auto; /* Maintain aspect ratio */
+  /* Ensure it fits within the header */
+}
+
+/* Styling for navigation */
+.header-container nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center; /* Ensure links are centered */
+  align-items: center;
+}
+
+.header-container nav ul li {
+  display: inline-block;
+  margin: 0 10px; /* Adjust spacing */
+}
+
+.header-container nav ul li a {
+  color: rgb(10, 1, 1);
+  font-size: 18px; /* Reduce font size */
+  text-decoration: none;
+}
+
+.header-container nav ul li a:hover {
+  text-decoration: underline;
+}
