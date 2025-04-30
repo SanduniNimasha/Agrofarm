@@ -1,0 +1,27 @@
+/* Header.css */
+.header-container {
+    background-color: #5c6bc0;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .header-container nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header-container nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  .header-container nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .header-container nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
