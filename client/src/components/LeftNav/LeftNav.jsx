@@ -5,7 +5,7 @@ import { axiosGet } from '../../axiosServices'
 const LeftNav = ({ employeeId }) => {
   const [empById, setEmpById] = useState([])
 
-
+//retrive employee details by id
   const getEmployeeById = async () => {
     try {
       const res = await axiosGet(`/employee/${employeeId}`)
